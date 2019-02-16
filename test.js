@@ -1,4 +1,8 @@
-// Added event listener to "window" to prevent Google Chrome from loading script prior to page content.
-window.onload = function() {
-	alert("Hello, World!");
-};
+var youLikeMeat = true;
+var myNum = 10;
+
+if (youLikeMeat) {
+	document.write('you like meat');
+} else {
+	document.write('you hate meat');
+}
