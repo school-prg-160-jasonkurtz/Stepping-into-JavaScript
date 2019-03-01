@@ -1,5 +1,5 @@
 // Declares variable to store user's age.
-var myAge = 29;
+var myAge = 49;
 
 // Determines whether user is over 30 or over 20 or over 10 or under 10.
 if (myAge > 30) {
