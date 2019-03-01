@@ -1,8 +1,13 @@
-var youLikeMeat = true;
-var myNum = 10;
+)// Declares variable to store user's age.
+var myAge = 29;
 
-if (youLikeMeat) {
-	document.write('you like meat');
+// Determines whether user is over 30 or over 20 or over 10 or under 10.
+if (myAge > 30) {
+	document.write('you are over 30!');
+} else if (myAge > 20){
+	document.write('you are over 20!');
+} else if (myAge > 10){
+	document.write('you are over 10!');
 } else {
-	document.write('you hate meat');
+	document.write('you are not over 10!');
 }
