@@ -1,11 +1,14 @@
-// Declares variable to store user's age.
-var age = 5;
+// Assigns all items to be looped through to the variable "links". This give the ability to count the number of items by accessing the length of the variable.
+var links = document.getElementsByTagName('a');
 
-// If the user's age is less than 10 it logs a message in console repeatedly relative to the difference of the user's age to 10.
-while (age < 10) {
-	console.log('Your age is less than 10');
-	age++;
+
+// Loop that counts each item in the "links" variable and console.logs each iteration.
+for (i = 1; i <= links.length; i++) {
+	console.log('this is link number ' + i);
 }
 
-// Writes to the document once the user's age is incremented to 10.
-document.write('you are now over 10');
+// Confirms completion of the by printing to the document.
+document.write('all links are now looped');
+
+// Console.logs the contents of the items being looped through.
+console.log(links);
